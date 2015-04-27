@@ -12,9 +12,7 @@ class ApiController < ApplicationController
     parsed_info = JSON.parse(initial_info)
     @result = parsed_info["weather"][0]["description"]
     @icon = parsed_info["weather"][0]["icon"]
-    temp_min = parsed_info["main"]["temp_min"]
-    @temp_min = temp_min
-    speed = parsed_info ["wind"]["speed"]
-    @speed = speed
+    @temp_min = parsed_info["main"]["temp_min"]
+    @speed = parsed_info ["wind"]["speed"]
   end
 end
