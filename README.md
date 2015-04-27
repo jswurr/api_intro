@@ -2,7 +2,7 @@
 
 The API controller contains most of the important code from the screencast.
 
-Test you understanding by extending the application in the following ways:
+Test your understanding by extending the application in the following ways:
 
 1. Display the latitude and longitude of the address that's entered
 2. Display the wind speed and direction
